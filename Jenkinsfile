@@ -1,6 +1,6 @@
 node {
     stage('Clone repository') {
-        git credentialsId: 'github-access', url: 'https://github.com/kjcho805/rollingpaper2.git'
+        git credentialsId: 'github-access', url: 'https://github.com/kjcho805/rolling-paper.git'
     }
 
     stage('Build image') {
